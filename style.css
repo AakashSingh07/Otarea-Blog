@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #fafafa;
+}
+
+.top-logo {
+    width: 120px;
+    margin: 20px;
+}
+
+/* HERO */
+.hero {
+    position: relative;
+    width: 90%;
+    margin: auto;
+}
+
+.hero-bg {
+    width: 100%;
+    height: 700px;
+    border-radius: 30px;
+}
+
+.hero-image {
+    position: absolute;
+    right: 60px;
+    top: 180px;
+    width: 480px;
+}
+
+.hero-text {
+    position: absolute;
+    top: 180px;
+    left: 60px;
+    color: #163a40;
+}
+
+.hero-text h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.search-box input {
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+}
+
+.search-box button {
+    width: 120px;
+    background: #6a1b9a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.tags {
+    color: #555;
+}
+
+/* LATEST POST */
+.curve-box {
+    display: flex;
+    gap: 20px;
+    background: #f2f2f2;
+    padding: 20px;
+    border-radius: 20px;
+    width: 90%;
+    margin: 40px auto;
+}
+
+.curve-box img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.post-content {
+    max-width: 500px;
+}
+
+.author {
+    color: #777;
+    margin: 8px 0;
+}
+
+/* OTHER POSTS */
+.postRow {
+    display: flex;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+.light {
+    background: #f2f2f2;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px -10px #000;
+}
+
+.light img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+/* DOWNLOAD */
+.download {
+    position: relative;
+    width: 90%;
+    margin: 60px auto;
+}
+
+.download-bg {
+    width: 100%;
+    height: 700px;
+    border-radius: 30px;
+}
+
+.download-image {
+    position: absolute;
+    right: 60px;
+    top: 200px;
+    width: 480px;
+}
+
+.download-text {
+    position: absolute;
+    top: 200px;
+    left: 60px;
+}
+
+.download-text button {
+    margin-top: 20px;
+    width: 160px;
+    height: 40px;
+    background: linear-gradient(to right, #0066ff, #00cc66);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
