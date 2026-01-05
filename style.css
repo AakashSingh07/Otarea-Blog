@@ -1,261 +1,260 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 body {
-  background: #f8f8f8;
+    background: #f8f8f8;
 }
 
 /* NAVBAR */
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
 }
 
 .logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .brand {
-  font-size: 22px;
-  font-weight: 600;
-  color: #333;
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
 }
 
 .dot {
-  color: #00b4d8;
+    color: #00b4d8;
 }
 
 .divider {
-  color: #aaa;
-  font-size: 22px;
+    color: #aaa;
+    font-size: 22px;
 }
 
 .blog {
-  font-size: 20px;
-  color: #555;
+    font-size: 20px;
+    color: #555;
 }
 
 
 .logo img {
-  height: 40px;
+    height: 40px;
 }
 
 .navbar nav a {
-  margin-right: 20px;
-  text-decoration: none;
-  color: #333;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
 }
 
 .btn {
-  background: #003049;
-  color: #fff;
-  padding: 10px 18px;
-  border-radius: 20px;
-  border: none;
-  cursor: pointer;
+    background: #003049;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
 }
+
 .nav-item {
-  margin-right: 20px;
-  text-decoration: none;
-  color: #333;
-  font-size: 16px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
 }
 
 .arrow {
-  color: #4f83ff;
-  margin-right: 6px;
-  font-size: 14px;
+    color: #4f83ff;
+    margin-right: 6px;
+    font-size: 14px;
 }
 
 .cart {
-  color: #4f83ff;
-  margin-right: 6px;
-  font-size: 16px;
+    color: #4f83ff;
+    margin-right: 6px;
+    font-size: 16px;
 }
 
 
 /* HERO */
 .hero {
-  display: flex;
-  align-items: center;
-  padding: 60px;
-       margin: 0px 56px;
-  border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    margin: 0px 56px;
+    border-radius: 30px;
 
-  background-image: url("images/Rectangle.jpg");
-  background-size: cover;
-  background-position: center;
+    background-image: url("images/Rectangle.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .hero-left {
-  width: 50%;
+    width: 50%;
 }
 
 .hero-left h1 {
-  font-size: 42px;
-  margin-bottom: 20px;
+    font-size: 42px;
+    margin-bottom: 20px;
 }
 
 .search-box {
-  display: flex;
-  margin-bottom: 10px;
+    display: flex;
+    margin-bottom: 10px;
 }
 
 .search-box input {
     padding: 15px;
     width: 60%;
-  border-radius: 20px 0 0 20px;
-  border: none;
+    border-radius: 20px 0 0 20px;
+    border: none;
 }
 
 .search-box button {
-  padding: 12px 20px;
-  border-radius: 0 20px 20px 0;
-  border: none;
-  background: #003049;
-  color: #fff;
+    padding: 12px 20px;
+    border-radius: 0 20px 20px 0;
+    border: none;
+    background: #003049;
+    color: #fff;
 }
 
 .hero-right img {
-  width: 420px;
+    width: 820px;
+    padding-left: 50%;
 }
 
 .tags {
-  color: #555;
+    color: #555;
 }
 
 /* LATEST POST */
 .latest-post {
-  padding: 40px 60px;
+    padding: 40px 60px;
 }
 
 .latest-card {
-  display: flex;
-  gap: 30px;
-  padding: 25px;
-  border-radius: 25px;
+    display: flex;
+    gap: 30px;
+    padding: 25px;
+    border-radius: 25px;
 
-  background-image: url("images/Rectangle.jpg");
-  background-size: cover;
-  background-position: center;
+    background-image: url("images/Rectangle.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .latest-img img {
-  width: 520px;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 20px;
+    width: 520px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
 }
 
 .latest-content h2 {
-  font-size: 28px;
-  margin-bottom: 15px;
+    font-size: 28px;
+    margin-bottom: 15px;
 }
 
 .author-row {
-  display: flex;
-  justify-content: space-between;
-  color: gray;
-  margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    margin-bottom: 15px;
 }
 
 .latest-content p {
-  font-size: 15px;
-  line-height: 1.6;
-  color: #444;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #444;
 }
 
 /* OTHER POSTS */
 .other-posts {
-  display: flex;
-  gap: 30px;
-  padding: 0px 60px 60px;
+    display: flex;
+    gap: 30px;
+    padding: 0px 60px 60px;
 }
 
 .post-card {
-  background: #fff;
-  border-radius: 20px;
-  padding: 15px;
-  width: 33%;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    background: #fff;
+    border-radius: 20px;
+    padding: 15px;
+    width: 33%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
 
 .post-card img {
-  width: 100%;
-  border-radius: 15px;
-  margin-bottom: 12px;
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 12px;
 }
 
 .post-card h3 {
-  font-size: 18px;
-  margin-bottom: 8px;
+    font-size: 18px;
+    margin-bottom: 8px;
 }
 
 .post-card p {
-  font-size: 14px;
-  color: #555;
-  margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
 }
 
 .post-card a {
-  float: right;
-  margin-top: 10px;
-  text-decoration: none;
-  color: #0077b6;
+    float: right;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #0077b6;
 }
 
 /* DOWNLOAD SECTION */
 .download {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-  padding: 90px 60px;
-     margin: -69px 0px;
-  border-radius: 30px;
+    padding: 90px 60px;
+    margin: -69px 0px;
+    border-radius: 30px;
 
-  background-image: url("images/Rectangle.jpg");
-  background-size: cover;
-  background-position: center;
+    background-image: url("images/Rectangle.jpg");
+    background-size: cover;
+    background-position: center;
     margin-bottom: 5px;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
 }
 
 .download-text h2 {
-  font-size: 36px;
-      margin: 1px 0;
+    font-size: 36px;
+    margin: 1px 0;
 }
 
 .download button {
-  margin-top: 20px;
-  padding: 12px 30px;
-  border-radius: 25px;
-  border: none;
+    margin-top: 20px;
+    padding: 12px 30px;
+    border-radius: 25px;
+    border: none;
 
-  background: linear-gradient(
-    90deg,
-    #3f5fbf 0%,
-    #63c29a 100%
-  );
-  color: #fff;
-  font-size: 16px;
-  cursor: pointer;
+    background: linear-gradient(90deg,
+            #3f5fbf 0%,
+            #63c29a 100%);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .download-img img {
-  width: 420px;
+    width: 420px;
 }
 
 .download-wrapper {
-  margin: 40px 58px;
-  padding: 10px;
-  border-radius: 40px;
+    margin: 40px 58px;
+    padding: 10px;
+    border-radius: 40px;
 }
-
