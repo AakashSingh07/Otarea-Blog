@@ -1,156 +1,261 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
 body {
-    background: #fafafa;
+  background: #f8f8f8;
 }
 
-.top-logo {
-    width: 120px;
-    margin: 20px;
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
 }
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand {
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+}
+
+.dot {
+  color: #00b4d8;
+}
+
+.divider {
+  color: #aaa;
+  font-size: 22px;
+}
+
+.blog {
+  font-size: 20px;
+  color: #555;
+}
+
+
+.logo img {
+  height: 40px;
+}
+
+.navbar nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+.btn {
+  background: #003049;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+.nav-item {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.arrow {
+  color: #4f83ff;
+  margin-right: 6px;
+  font-size: 14px;
+}
+
+.cart {
+  color: #4f83ff;
+  margin-right: 6px;
+  font-size: 16px;
+}
+
 
 /* HERO */
 .hero {
-    position: relative;
-    width: 90%;
-    margin: auto;
+  display: flex;
+  align-items: center;
+  padding: 60px;
+       margin: 0px 56px;
+  border-radius: 30px;
+
+  background-image: url("images/Rectangle.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
-.hero-bg {
-    width: 100%;
-    height: 700px;
-    border-radius: 30px;
+.hero-left {
+  width: 50%;
 }
 
-.hero-image {
-    position: absolute;
-    right: 60px;
-    top: 180px;
-    width: 480px;
-}
-
-.hero-text {
-    position: absolute;
-    top: 180px;
-    left: 60px;
-    color: #163a40;
-}
-
-.hero-text h1 {
-    font-size: 42px;
-    margin-bottom: 20px;
+.hero-left h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
 }
 
 .search-box {
-    display: flex;
-    margin-bottom: 12px;
+  display: flex;
+  margin-bottom: 10px;
 }
 
 .search-box input {
-    width: 300px;
-    height: 50px;
-    padding: 10px;
+    padding: 15px;
+    width: 60%;
+  border-radius: 20px 0 0 20px;
+  border: none;
 }
 
 .search-box button {
-    width: 120px;
-    background: #6a1b9a;
-    color: white;
-    border: none;
-    cursor: pointer;
+  padding: 12px 20px;
+  border-radius: 0 20px 20px 0;
+  border: none;
+  background: #003049;
+  color: #fff;
+}
+
+.hero-right img {
+  width: 420px;
 }
 
 .tags {
-    color: #555;
+  color: #555;
 }
 
 /* LATEST POST */
-.curve-box {
-    display: flex;
-    gap: 20px;
-    background: #f2f2f2;
-    padding: 20px;
-    border-radius: 20px;
-    width: 90%;
-    margin: 40px auto;
+.latest-post {
+  padding: 40px 60px;
 }
 
-.curve-box img {
-    width: 600px;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 30px;
+.latest-card {
+  display: flex;
+  gap: 30px;
+  padding: 25px;
+  border-radius: 25px;
+
+  background-image: url("images/Rectangle.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
-.post-content {
-    max-width: 500px;
+.latest-img img {
+  width: 520px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
 }
 
-.author {
-    color: #777;
-    margin: 8px 0;
+.latest-content h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.author-row {
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+  margin-bottom: 15px;
+}
+
+.latest-content p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #444;
 }
 
 /* OTHER POSTS */
-.postRow {
-    display: flex;
-    gap: 20px;
-    width: 90%;
-    margin: auto;
+.other-posts {
+  display: flex;
+  gap: 30px;
+  padding: 0px 60px 60px;
 }
 
-.light {
-    background: #f2f2f2;
-    padding: 15px;
-    border-radius: 20px;
-    box-shadow: 0 10px 20px -10px #000;
+.post-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 15px;
+  width: 33%;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
-.light img {
-    width: 100%;
-    height: 240px;
-    object-fit: cover;
-    border-radius: 30px;
+.post-card img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 12px;
 }
 
-/* DOWNLOAD */
+.post-card h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.post-card p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+
+.post-card a {
+  float: right;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #0077b6;
+}
+
+/* DOWNLOAD SECTION */
 .download {
-    position: relative;
-    width: 90%;
-    margin: 60px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 90px 60px;
+     margin: -69px 0px;
+  border-radius: 30px;
+
+  background-image: url("images/Rectangle.jpg");
+  background-size: cover;
+  background-position: center;
+    margin-bottom: 5px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
 }
 
-.download-bg {
-    width: 100%;
-    height: 700px;
-    border-radius: 30px;
+.download-text h2 {
+  font-size: 36px;
+      margin: 1px 0;
 }
 
-.download-image {
-    position: absolute;
-    right: 60px;
-    top: 200px;
-    width: 480px;
+.download button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  border-radius: 25px;
+  border: none;
+
+  background: linear-gradient(
+    90deg,
+    #3f5fbf 0%,
+    #63c29a 100%
+  );
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
 }
 
-.download-text {
-    position: absolute;
-    top: 200px;
-    left: 60px;
+.download-img img {
+  width: 420px;
 }
 
-.download-text button {
-    margin-top: 20px;
-    width: 160px;
-    height: 40px;
-    background: linear-gradient(to right, #0066ff, #00cc66);
-    color: white;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
+.download-wrapper {
+  margin: 40px 58px;
+  padding: 10px;
+  border-radius: 40px;
 }
+
